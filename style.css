@@ -1,0 +1,146 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_960_720.png);
+    background-color: rgba(250, 244, 244, 0.5); /* Cor de fundo semitransparente */
+    background-blend-mode: overlay; /* Modo de mistura de fundo */
+   }
+
+background{
+    opacity: 0.5;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+    color: #c71984;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.caixa {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    top: 80px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c71984;
+}
+
+.contato{
+    width: 940px;
+    margin: 0 auto; 
+}
+
+form{
+    margin: 100px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.cpf-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.enviar{
+    background: #BBBBBB;
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    }
+
+.enviar:hover{
+    background:#c71984;
+    cursor: pointer;
+}
+
+table:contato{
+    margin: 30px 0 0 40px;
+}
+
+thead{
+    background: #c71984;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 8px 15px; 
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+
+}
+
+.principal{
+    padding: 10em 0;
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fotinhapap{
+   width: 100px;
+   float: left;
+   margin: 0 10px 10px 0px;
+}
